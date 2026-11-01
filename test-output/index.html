@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SauceDemoSuite" class="navigator-link">
+              <span class="suite-name border-failed">SauceDemoSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SauceDemoSuite" class="navigator-link ">
+                    <span>C:\Users\gopik\Swag_Labs\SwagLabstestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SauceDemoSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SauceDemoSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SauceDemoSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SauceDemoSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SauceDemoSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SauceDemoSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SauceDemoSuite" class="hide-methods failed suite-SauceDemoSuite"> (hide)</a> <!-- hide-methods failed suite-SauceDemoSuite -->
+                      <a href="#" panel-name="suite-SauceDemoSuite" class="show-methods failed suite-SauceDemoSuite"> (show)</a> <!-- show-methods failed suite-SauceDemoSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SauceDemoSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoSuite" title="testpkg.Login_test" class="method navigator-link" hash-for-method="LoginTest(karthik, karthik123)">LoginTest(karthik, karthik123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoSuite" title="testpkg.Login_test" class="method navigator-link" hash-for-method="LoginTest(anu, anu123)">LoginTest(anu, anu123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SauceDemoSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SauceDemoSuite" class="hide-methods passed suite-SauceDemoSuite"> (hide)</a> <!-- hide-methods passed suite-SauceDemoSuite -->
+                      <a href="#" panel-name="suite-SauceDemoSuite" class="show-methods passed suite-SauceDemoSuite"> (show)</a> <!-- show-methods passed suite-SauceDemoSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SauceDemoSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoSuite" title="testpkg.Login_test" class="method navigator-link" hash-for-method="LoginTest(standard_user, secret_sauce)">LoginTest(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoSuite" title="testpkg.CartTest" class="method navigator-link" hash-for-method="addProductsToCart">addProductsToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoSuite" title="testpkg.Login_test" class="method navigator-link" hash-for-method="buttonVerification">buttonVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoSuite" title="testpkg.CartTest" class="method navigator-link" hash-for-method="checkoutTest">checkoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoSuite" title="testpkg.Login_test" class="method navigator-link" hash-for-method="logoVerification">logoVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoSuite" title="testpkg.CartTest" class="method navigator-link" hash-for-method="productDetailsAndSorting">productDetailsAndSorting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoSuite" title="testpkg.Login_test" class="method navigator-link" hash-for-method="titleVerification">titleVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoSuite" title="testpkg.CartTest" class="method navigator-link" hash-for-method="verifyLogout">verifyLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauceDemoSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SauceDemoSuite" class="panel SauceDemoSuite">
+          <div class="suite-SauceDemoSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testpkg.Login_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest(karthik, karthik123)">
+                  </a> <!-- LoginTest(karthik, karthik123) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(karthik,karthik123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login failed for user: karthik expected [true] but found [false]
+	at testpkg.Login_test.LoginTest(Login_test.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest(anu, anu123)">
+                  </a> <!-- LoginTest(anu, anu123) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(anu,anu123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login failed for user: anu expected [true] but found [false]
+	at testpkg.Login_test.LoginTest(Login_test.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-failed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.Login_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest(standard_user, secret_sauce)">
+                  </a> <!-- LoginTest(standard_user, secret_sauce) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buttonVerification">
+                  </a> <!-- buttonVerification -->
+                  <span class="method-name">buttonVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoVerification">
+                  </a> <!-- logoVerification -->
+                  <span class="method-name">logoVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleVerification">
+                  </a> <!-- titleVerification -->
+                  <span class="method-name">titleVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+          <div class="suite-SauceDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpkg.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductsToCart">
+                  </a> <!-- addProductsToCart -->
+                  <span class="method-name">addProductsToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutTest">
+                  </a> <!-- checkoutTest -->
+                  <span class="method-name">checkoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productDetailsAndSorting">
+                  </a> <!-- productDetailsAndSorting -->
+                  <span class="method-name">productDetailsAndSorting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogout">
+                  </a> <!-- verifyLogout -->
+                  <span class="method-name">verifyLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoSuite-class-passed -->
+        </div> <!-- panel SauceDemoSuite -->
+        <div panel-name="test-xml-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\gopik\Swag_Labs\SwagLabstestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SauceDemoSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SauceDemoAutomation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testpkg.Login_test&quot;/&gt;
+      &lt;class name=&quot;testpkg.CartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SauceDemoAutomation --&gt;
+&lt;/suite&gt; &lt;!-- SauceDemoSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SauceDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SauceDemoAutomation (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SauceDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SauceDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SauceDemoSuite');
+function tableData_SauceDemoSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkoutTest')
+data.setCell(0, 2, 'testpkg.CartTest')
+data.setCell(0, 3, 3022);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addProductsToCart')
+data.setCell(1, 2, 'testpkg.CartTest')
+data.setCell(1, 3, 2035);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'productDetailsAndSorting')
+data.setCell(2, 2, 'testpkg.CartTest')
+data.setCell(2, 3, 1512);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLogout')
+data.setCell(3, 2, 'testpkg.CartTest')
+data.setCell(3, 3, 1386);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginTest')
+data.setCell(4, 2, 'testpkg.Login_test')
+data.setCell(4, 3, 520);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginTest')
+data.setCell(5, 2, 'testpkg.Login_test')
+data.setCell(5, 3, 465);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginTest')
+data.setCell(6, 2, 'testpkg.Login_test')
+data.setCell(6, 3, 385);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'buttonVerification')
+data.setCell(7, 2, 'testpkg.Login_test')
+data.setCell(7, 3, 59);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'logoVerification')
+data.setCell(8, 2, 'testpkg.Login_test')
+data.setCell(8, 3, 41);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'titleVerification')
+data.setCell(9, 2, 'testpkg.Login_test')
+data.setCell(9, 3, 15);
+window.suiteTableData['SauceDemoSuite']= { tableData: data, tableDiv: 'times-div-SauceDemoSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-SauceDemoSuite">
+              </div> <!-- times-div-SauceDemoSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SauceDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testpkg.CartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">finishReport</span>
+                <br/>
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SauceDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.Login_test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void testpkg.Login_test.LoginTest(java.lang.String,java.lang.String))</span>
+                <span class="method-start">1545 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginTest(anu, anu123)</span>
+                <span class="method-start">4571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=LoginTest status=FAILURE method=Login_test.LoginTest(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">5063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void testpkg.Login_test.LoginTest(java.lang.String,java.lang.String))</span>
+                <span class="method-start">5507 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginTest(karthik, karthik123)</span>
+                <span class="method-start">7747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=LoginTest status=FAILURE method=Login_test.LoginTest(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">8140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void testpkg.Login_test.LoginTest(java.lang.String,java.lang.String))</span>
+                <span class="method-start">8596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginTest(standard_user, secret_sauce)</span>
+                <span class="method-start">11028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=LoginTest status=SUCCESS method=Login_test.LoginTest(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">11560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void testpkg.Login_test.buttonVerification())</span>
+                <span class="method-start">11826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buttonVerification</span>
+                <span class="method-start">14264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=buttonVerification status=SUCCESS method=Login_test.buttonVerification()[pri:0, ins...)</span>
+                <span class="method-start">14325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void testpkg.Login_test.logoVerification())</span>
+                <span class="method-start">14572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoVerification</span>
+                <span class="method-start">16963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=logoVerification status=SUCCESS method=Login_test.logoVerification()[pri:0, instanc...)</span>
+                <span class="method-start">17006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void testpkg.Login_test.titleVerification())</span>
+                <span class="method-start">17223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">titleVerification</span>
+                <span class="method-start">19595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=titleVerification status=SUCCESS method=Login_test.titleVerification()[pri:0, insta...)</span>
+                <span class="method-start">19619 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void testpkg.CartTest.addProductsToCart())</span>
+                <span class="method-start">19859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProductsToCart</span>
+                <span class="method-start">23061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=addProductsToCart status=SUCCESS method=CartTest.addProductsToCart()[pri:0, instanc...)</span>
+                <span class="method-start">25096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void testpkg.CartTest.checkoutTest())</span>
+                <span class="method-start">25395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutTest</span>
+                <span class="method-start">27771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=checkoutTest status=SUCCESS method=CartTest.checkoutTest()[pri:0, instance:testpkg....)</span>
+                <span class="method-start">30813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void testpkg.CartTest.productDetailsAndSorting() throws java.lang.InterruptedException)</span>
+                <span class="method-start">31088 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">productDetailsAndSorting</span>
+                <span class="method-start">33217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=productDetailsAndSorting status=SUCCESS method=CartTest.productDetailsAndSorting()[...)</span>
+                <span class="method-start">34752 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start(public void testpkg.CartTest.verifyLogout())</span>
+                <span class="method-start">35044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogout</span>
+                <span class="method-start">37061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyLogout status=SUCCESS method=CartTest.verifyLogout()[pri:0, instance:testpkg....)</span>
+                <span class="method-start">38455 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpkg.Login_test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">finishReport</span>
+                <span class="method-start">38780 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

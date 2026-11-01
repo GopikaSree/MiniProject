@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="UtilitiesPkg.Utilities_class">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest" invocation-numbers="0 1"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- UtilitiesPkg.Utilities_class -->
+      <class name="basepkg.reporterclass">
+        <methods>
+          <include name="LogoVerification"/>
+          <include name="browserclose"/>
+          <include name="buttontextverification"/>
+          <include name="sam"/>
+          <include name="eg"/>
+          <include name="tearDown"/>
+          <include name="teardown"/>
+          <include name="TitleVerification"/>
+        </methods>
+      </class> <!-- basepkg.reporterclass -->
+      <class name="testpkg.chkout_test">
+        <methods>
+          <include name="start"/>
+          <include name="chkoutTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testpkg.chkout_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

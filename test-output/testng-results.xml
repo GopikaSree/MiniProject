@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-01T11:27:14 IST" name="SauceDemoSuite" finished-at="2026-11-01T11:27:52 IST" duration-ms="38340">
+    <groups>
+    </groups>
+    <test started-at="2026-11-01T11:27:14 IST" name="SauceDemoAutomation" finished-at="2026-11-01T11:27:52 IST" duration-ms="38340">
+      <class name="testpkg.CartTest">
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:33 IST" name="start" finished-at="2026-11-01T11:27:37 IST" duration-ms="3202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.CartTest.addProductsToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="addProductsToCart()[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:37 IST" name="addProductsToCart" finished-at="2026-11-01T11:27:39 IST" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductsToCart -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:39 IST" name="closeBrowser" finished-at="2026-11-01T11:27:39 IST" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductsToCart status=SUCCESS method=CartTest.addProductsToCart()[pri:0, instance:testpkg.CartTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:39 IST" name="start" finished-at="2026-11-01T11:27:41 IST" duration-ms="2376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.CartTest.checkoutTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="checkoutTest()[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:41 IST" name="checkoutTest" finished-at="2026-11-01T11:27:44 IST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:44 IST" name="closeBrowser" finished-at="2026-11-01T11:27:45 IST" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutTest status=SUCCESS method=CartTest.checkoutTest()[pri:0, instance:testpkg.CartTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:45 IST" name="start" finished-at="2026-11-01T11:27:47 IST" duration-ms="2129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.CartTest.productDetailsAndSorting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="productDetailsAndSorting()[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:47 IST" name="productDetailsAndSorting" finished-at="2026-11-01T11:27:48 IST" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetailsAndSorting -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:48 IST" name="closeBrowser" finished-at="2026-11-01T11:27:49 IST" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productDetailsAndSorting status=SUCCESS method=CartTest.productDetailsAndSorting()[pri:0, instance:testpkg.CartTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:49 IST" name="start" finished-at="2026-11-01T11:27:51 IST" duration-ms="2017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.CartTest.verifyLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="verifyLogout()[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:51 IST" name="verifyLogout" finished-at="2026-11-01T11:27:52 IST" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testpkg.CartTest@6c40365c]" started-at="2026-11-01T11:27:52 IST" name="closeBrowser" finished-at="2026-11-01T11:27:52 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogout status=SUCCESS method=CartTest.verifyLogout()[pri:0, instance:testpkg.CartTest@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testpkg.CartTest -->
+      <class name="testpkg.Login_test">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:14 IST" name="startReport" finished-at="2026-11-01T11:27:14 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:15 IST" name="start" finished-at="2026-11-01T11:27:18 IST" duration-ms="3023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.Login_test.LoginTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:18 IST" name="LoginTest" data-provider="loginData" finished-at="2026-11-01T11:27:19 IST" duration-ms="465" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anu123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed for user: anu expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed for user: anu expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testpkg.Login_test.LoginTest(Login_test.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:19 IST" name="closeBrowser" finished-at="2026-11-01T11:27:19 IST" duration-ms="442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=FAILURE method=Login_test.LoginTest(java.lang.String,java.lang.String)[pri:0, instance:testpkg.Login_test@7770f470] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:19 IST" name="start" finished-at="2026-11-01T11:27:21 IST" duration-ms="2240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.Login_test.LoginTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:21 IST" name="LoginTest" data-provider="loginData" finished-at="2026-11-01T11:27:22 IST" duration-ms="385" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karthik123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed for user: karthik expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed for user: karthik expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testpkg.Login_test.LoginTest(Login_test.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:22 IST" name="closeBrowser" finished-at="2026-11-01T11:27:22 IST" duration-ms="455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=FAILURE method=Login_test.LoginTest(java.lang.String,java.lang.String)[pri:0, instance:testpkg.Login_test@7770f470] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:22 IST" name="start" finished-at="2026-11-01T11:27:25 IST" duration-ms="2432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.Login_test.LoginTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:25 IST" name="LoginTest" data-provider="loginData" finished-at="2026-11-01T11:27:25 IST" duration-ms="520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:25 IST" name="closeBrowser" finished-at="2026-11-01T11:27:25 IST" duration-ms="263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=Login_test.LoginTest(java.lang.String,java.lang.String)[pri:0, instance:testpkg.Login_test@7770f470] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:25 IST" name="start" finished-at="2026-11-01T11:27:28 IST" duration-ms="2438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.Login_test.buttonVerification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="buttonVerification()[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:28 IST" name="buttonVerification" finished-at="2026-11-01T11:27:28 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonVerification -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:28 IST" name="closeBrowser" finished-at="2026-11-01T11:27:28 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buttonVerification status=SUCCESS method=Login_test.buttonVerification()[pri:0, instance:testpkg.Login_test@7770f470] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:28 IST" name="start" finished-at="2026-11-01T11:27:31 IST" duration-ms="2391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.Login_test.logoVerification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="logoVerification()[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:31 IST" name="logoVerification" finished-at="2026-11-01T11:27:31 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoVerification -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:31 IST" name="closeBrowser" finished-at="2026-11-01T11:27:31 IST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoVerification status=SUCCESS method=Login_test.logoVerification()[pri:0, instance:testpkg.Login_test@7770f470] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:31 IST" name="start" finished-at="2026-11-01T11:27:33 IST" duration-ms="2372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.Login_test.titleVerification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="titleVerification()[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:33 IST" name="titleVerification" finished-at="2026-11-01T11:27:33 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:33 IST" name="closeBrowser" finished-at="2026-11-01T11:27:33 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titleVerification status=SUCCESS method=Login_test.titleVerification()[pri:0, instance:testpkg.Login_test@7770f470] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="finishReport()[pri:0, instance:testpkg.Login_test@7770f470]" started-at="2026-11-01T11:27:52 IST" name="finishReport" finished-at="2026-11-01T11:27:53 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishReport -->
+      </class> <!-- testpkg.Login_test -->
+    </test> <!-- SauceDemoAutomation -->
+  </suite> <!-- SauceDemoSuite -->
+</testng-results>

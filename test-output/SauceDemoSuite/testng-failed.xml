@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemoSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SauceDemoAutomation(failed)">
+    <classes>
+      <class name="testpkg.Login_test">
+        <methods>
+          <include name="start"/>
+          <include name="startReport"/>
+          <include name="LoginTest" invocation-numbers="0 1"/>
+          <include name="finishReport"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testpkg.Login_test -->
+    </classes>
+  </test> <!-- SauceDemoAutomation(failed) -->
+</suite> <!-- Failed suite [SauceDemoSuite] -->
